@@ -1,0 +1,15 @@
+tradesteps.my_page:
+  path: '/my_page'
+  defaults:
+    _controller: 'Drupal\tradesteps\Controller\MyPage::getContent'
+    _title: 'Hello world'
+  requirements:
+    _permission: 'access content'
+    
+tradesteps.my_form:
+  path: '/my_form'
+  defaults:
+    _form: 'Drupal\tradesteps\Form\MyForm'
+    _title: 'My Form'
+  requirements:
+    _permission: 'access content'
